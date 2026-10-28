@@ -1,0 +1,41 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+__MACOSX/
+
+# Generated output
+output/
+results/
+
+# Operator data (commercially sensitive, never commit)
+*.xlsx
+voice_*.csv
+data_clean/
+
+# Thesis, notes and reference material (not part of the code release)
+*.tex
+*.cls
+*.sty
+*.bib
+*.afr
+*.eng
+*.pdf
+chapters/
+frontmatter/
+appendices/
+docs/
+literature/
+admin/
+figures/
+
+# LaTeX build files
+*.aux
+*.log
+*.nlg
+*.nls
+*.nlo
+*.out
+*.toc
+*.synctex.gz
